@@ -19,10 +19,7 @@ h1,h2,h3,h4,h5,.logo-font{
     background-size: cover;
     background-attachment: fixed;
 }
-a{
-    text-decoration: none;
-    color: #fff;
-}
+
 .header-bg{
     background: url(../images/header1.jpg) no-repeat;
     background-size: cover;
