@@ -4,7 +4,7 @@
 body{
       font-family: "Noto Sans", sans-serif;
 }
-h1,h2,h3,h4,h5{
+h1,h2,h3,h4,h5,.logo-font{
     font-family: "Sunflower", sans-serif;
 }
 .card-img-top{
@@ -18,4 +18,24 @@ h1,h2,h3,h4,h5{
     background: url(../images/card-banner.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.header-bg{
+    background: url(../images/header1.jpg) no-repeat;
+    background-size: cover;
+}
+.nav-link.active,
+.nav-link:hover{
+    color: darkblue !important;
+    font-weight: bold;
+}
+@media (max-width:768px){
+    .md-font{display: block;}
+   
+}
+@media (min-width:1024px){
+ .md-font{display: none;}
 }
