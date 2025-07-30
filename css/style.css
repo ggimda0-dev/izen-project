@@ -6,6 +6,7 @@ body{
 }
 h1,h2,h3,h4,h5,.logo-font{
     font-family: "Sunflower", sans-serif;
+    font-weight: 700;
 }
 .card-img-top{
     transition: transform.7s;
